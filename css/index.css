@@ -52,6 +52,10 @@ header .nav-link:hover {
   font-family: mycursive;
   font-size: 35px;
 }
+.text-cursive {
+  font-family: mycursive;
+  font-size: 40px;
+}
 .mybtn {
   height: 45px;
   width: 150px;
@@ -59,4 +63,48 @@ header .nav-link:hover {
   font-size: 15px;
   background-color: #e54c2a;
   color: #fff;
+}
+.about-page {
+  height: 450px;
+  background-color: #fff;
+}
+.about-page h3 {
+  font-size: 40px;
+}
+.t1 {
+  font-size: 20px;
+  font-weight: 400;
+}
+.img-box {
+  height: 400px;
+}
+.img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.dishes-page {
+  background-color: #f1f1f1;
+}
+.t-box {
+  width: 70%;
+  margin: 0 auto;
+  font-size: 15px;
+}
+.img-gallery {
+  height: 400px;
+}
+.card {
+  background-color: #fff;
+  height: 350px;
+  border: none;
+}
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.menu-page {
+  height: 100vh;
+  background-color: #fff;
 }
