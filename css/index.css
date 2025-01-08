@@ -147,3 +147,38 @@ header .nav-link:hover {
   width: 100px;
   text-align: right;
 }
+.gallery-page {
+  background-color: #f1f1f1;
+}
+.gallery-page .nav-link {
+  color: #666666;
+  font-weight: 500;
+}
+
+.img-box-2 {
+  height: 230px;
+  border: 5px solid #fff;
+}
+.img-box-2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.reservation {
+  background-color: #fff;
+}
+.reservation-form {
+  height: 450px;
+  width: 90%;
+  margin: 0 auto;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.img-box-3 {
+  height: 400px;
+}
+.img-box-3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
