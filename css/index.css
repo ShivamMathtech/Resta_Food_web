@@ -105,6 +105,45 @@ header .nav-link:hover {
   object-fit: cover;
 }
 .menu-page {
-  height: 100vh;
   background-color: #fff;
+}
+.banner {
+  height: 120px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.banner .nav-link {
+  color: #666666;
+  font-weight: 500;
+}
+.banner img {
+  width: 120px;
+  height: 100%;
+  object-fit: cover;
+}
+.menu-gallery {
+  margin-top: 20px;
+}
+.menu-card {
+  height: 70px;
+  margin: 5px;
+  display: grid;
+  grid-template-columns: 4fr 7fr 1fr;
+}
+.menu-card p {
+  font-size: 20px;
+  text-align: right;
+}
+.menu-card img {
+  height: 70px;
+  object-fit: cover;
+}
+.b1 {
+  width: 80px;
+}
+.b2 {
+  width: 300px;
+}
+.b3 {
+  width: 100px;
+  text-align: right;
 }
