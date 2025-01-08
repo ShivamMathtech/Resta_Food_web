@@ -1,6 +1,62 @@
 .main-page {
   height: 100vh;
-  background-image: url("../img/bg2.jpg");
+  background-image: url("../img/bg5.jpg");
   background-size: cover;
-  background-position: center;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+header {
+  height: 100px;
+  background-color: #fff;
+}
+header .nav-link {
+  color: #000;
+  font-size: 15px;
+  font-weight: 400;
+}
+header .nav-link:hover {
+  color: #000;
+}
+.section-1 {
+  height: calc(100vh - 100px);
+}
+.social-box {
+  color: #666666;
+  margin: 10px;
+  font-size: 16px;
+}
+.v-line {
+  height: 70px;
+  border: none;
+  border-left: 2px solid #e54c2a;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.folow-text {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  margin: 10px auto;
+}
+.text-box {
+  width: 60%;
+}
+.text-box h2 {
+  font-size: 40px;
+  word-spacing: 4px;
+}
+@font-face {
+  font-family: mycursive;
+  src: url("/css/fonts/GreatVibes-Regular.ttf");
+}
+.text-box h3 {
+  font-family: mycursive;
+  font-size: 35px;
+}
+.mybtn {
+  height: 45px;
+  width: 150px;
+  border: none;
+  font-size: 15px;
+  background-color: #e54c2a;
+  color: #fff;
 }
