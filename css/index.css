@@ -253,10 +253,22 @@ header .nav-link:hover {
   background-color: #f1f1f1;
   height: 120px;
 }
-
 .offer-content {
   height: 300px;
-
   width: 60%;
   margin: 0 auto;
+}
+.footer-page {
+  height: 400px;
+  background-color: #f1f1f1;
+}
+.upper_footer {
+  height: 340px;
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr 3fr;
+}
+.lower_footer {
+  height: 60px;
+  background-color: #e54c2a;
+  line-height: 60px;
 }
