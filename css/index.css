@@ -264,11 +264,27 @@ header .nav-link:hover {
 }
 .upper_footer {
   height: 340px;
-  display: grid;
-  grid-template-columns: 3fr 3fr 3fr 3fr;
 }
 .lower_footer {
   height: 60px;
   background-color: #e54c2a;
   line-height: 60px;
+}
+.foot-content {
+  height: 80%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr 3fr;
+}
+.Newslet p {
+  font-size: 14px;
+}
+.ins-img {
+  height: 60px;
+  width: 80%;
+}
+.ins-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
