@@ -1,5 +1,4 @@
 .main-page {
-  height: 100vh;
   background-image: url("../img/bg5.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -65,7 +64,6 @@ header .nav-link:hover {
   color: #fff;
 }
 .about-page {
-  height: 450px;
   background-color: #fff;
 }
 .about-page h3 {
@@ -91,9 +89,9 @@ header .nav-link:hover {
   margin: 0 auto;
   font-size: 15px;
 }
-.img-gallery {
+/* .img-gallery {
   height: 400px;
-}
+} */
 .card {
   background-color: #fff;
   height: 350px;
@@ -108,7 +106,6 @@ header .nav-link:hover {
   background-color: #fff;
 }
 .banner {
-  height: 120px;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 .banner .nav-link {
@@ -168,10 +165,9 @@ header .nav-link:hover {
   background-color: #fff;
 }
 .reservation-form {
-  height: 450px;
   width: 90%;
   margin: 0 auto;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 10px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 .img-box-3 {
@@ -181,4 +177,70 @@ header .nav-link:hover {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.blog-page {
+  background-color: #f1f1f1;
+}
+.blog-gallery {
+  margin-top: 50px;
+  padding: 20px;
+}
+.blog-box {
+  height: 200px;
+  border: 5px solid #fff;
+  position: relative;
+}
+.blog-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.strip {
+  height: 50px;
+  width: 95%;
+  left: 2.5%;
+  background-color: #fff;
+  position: absolute;
+  bottom: -30px;
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+}
+.date-box {
+  background-color: #e54c2a;
+  font-size: 12px;
+}
+.t-box-2 {
+  font-size: 12px;
+}
+.client-page {
+  height: 100vh;
+  background-color: #fff;
+}
+.client-small-img {
+  height: 200px;
+  width: 50%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 4fr 4fr 4fr;
+}
+.client-img-1 {
+  height: 150px;
+  margin: 5px;
+}
+.even {
+  height: 170px;
+  margin-top: -5px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.client-img-1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.overlay-img {
+  background-color: rgba(49, 46, 46, 0.7);
+  width: 100%;
+  height: 100%;
 }
